@@ -63,8 +63,6 @@ Tabs.Main:AddButton({
     Description = "Very important button",
     Callback = function()
       print("Hello World")
-       end
-    end
 end
 })
 
