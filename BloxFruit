@@ -1,16 +1,3 @@
-local HWIDTable = loadstring(game:HttpGet("https://pastebin.com/raw/tJcHfekh"))()
-local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
-setclipboard(game:GetService("RbxAnalyticsService"):GetClientId())
-
-for i,v in pairs(HWIDTable) do
-    if v == HWID then
-        print("Correct Hwid")
-        game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "Correct Hwid", -- Required
-            Text = "กำลังรันสคริปต์ให้", -- Required
-            Icon = "rbxassetid://14999747840" -- Optional
-        })
-    
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then 
 
     _G.Color = Color3.fromRGB(118,6,255)
@@ -13465,9 +13452,4 @@ local MikSection = TeleportTab:CreateSection({
 
 --[[loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxfui/Checkhealthplayer/main/HEEEEEEEEEEEE", true))()--]]
 
-end
-
-else
-    print("InCorrect Hwid")
-end
 end
