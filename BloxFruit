@@ -65,6 +65,7 @@ Tabs.Main:AddButton({
       print("Hello World")
        end
     end
+end
 })
 
         end
